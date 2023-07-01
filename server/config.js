@@ -7,10 +7,10 @@ module.exports = {
   },
   db: {
     uri: 'mongodb+srv://superdev829:tyh9t2JjdBsDGbdB@cluster0.mi39ol5.mongodb.net/',
-    name: 'lechat',
+    name: 'Imax',
   },
   // db: {
   //   uri: process.env.MONGO_URI,
-  //   name: 'lechat',
+  //   name: 'Imax',
   // },
 };

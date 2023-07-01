@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import * as comp from '../components/auth';
 import config from '../config';
+import '../public/assets/css/custom.css';
+import bgImg from '../public/assets/images/login-sign.jpg';
 
 function Auth() {
   const [respond, setRespond] = useState({ success: true, message: null });
   const [login, setLogin] = useState(true);
 
   return (
-    <div className="absolute w-full h-full flex justify-center overflow-auto bg-white sm:bg-spill-100">
+    <div className="absolute w-full h-full flex justify-center overflow-auto bg-white sm:bg-spill-100 custom-bg-sign">
+      <img src={bgImg} alt="background image" />
       <div className="p-6 w-[460px]">
         <h1 className="font-bold text-2xl font-display sm:text-center">
           {config.brandName}

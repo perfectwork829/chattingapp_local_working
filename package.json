@@ -1,7 +1,7 @@
 {
-  "name": "lechat",
+  "name": "Imax",
   "version": "1.0.0",
-  "description": "LeChat is an instant messaging app that allows you to quickly share text messages, emojis, photos, or files with other LeChat users",
+  "description": "Imax is an instant messaging app that allows you to quickly share text messages, emojis, photos, or files with other Imax users",
   "main": "server/index.js",
   "private": true,
   "engines": {
@@ -23,7 +23,7 @@
     "url": "git+https://github.com/febriadj/lechat.git"
   },
   "keywords": [
-    "lechat",
+    "Imax",
     "mern",
     "social-media",
     "socket.io",
